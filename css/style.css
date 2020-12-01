@@ -1,0 +1,351 @@
+.noVis {
+    display: none;
+}
+
+.lightBack {
+    background-image: url("../img/lightback-min.jpg");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 160px;
+}
+
+.logoNoTxt {
+    display: block;
+    margin: 20px auto;
+    max-width: 140px;
+    padding-bottom: 20px;
+}
+
+p, button {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.pTxt {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pTxtConfig {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    
+}
+
+.cardExport {
+    max-width: 240px;
+    display: block;
+    margin: 0 auto;
+}
+
+.dwn {
+    max-width: 28px;
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+
+.btn-dwn {
+    background-color: #0DF228;
+    color: #282828;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+}
+
+.btn-dwn:hover {
+    background-color: #09B11D;
+    color: #282828;
+}
+
+.btnSuggest {
+    background-color: #0DF228;
+    color: #282828;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.btnSuggest:hover {
+    background-color: #09B11D;
+    color: #282828;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+button {
+    
+}
+
+.formCtn {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.beba {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.bebaSm {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    display: inline-block;
+}
+
+.bebaXSm {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    display: inline-block;
+    opacity: .8
+}
+
+.topPara {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 320px;
+    margin-top: 14px;
+}
+
+.orCheck {
+    line-height: 18px;
+}
+
+.supportPara {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 540px;
+    margin-top: 0px;
+}
+
+.boxCtn {
+    background-color: #fff;
+    border: solid 2px #D6D0D0;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+
+.topPill {
+    background-color: #275261;
+    font-size: 12px
+}
+
+.nbLogo {
+    position: relative;
+    top: -5px;
+    max-width: 35px;
+}
+
+.nbLink {
+    color: #008BB8;
+}
+
+.nbLink:hover {
+    color: #008BB8;
+    text-decoration: none;
+}
+
+.topBack {
+    background-image: url("../img/backgym.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 160%;
+}
+
+.bottomBack {
+    background-image: url("../img/backgym.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0%;
+}
+
+.caution {
+    background-image: url("../img/cautionback.jpg");
+    height: 20px;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: .4;
+}
+
+.cardTop {
+    border-top: 8px solid #0DF228;
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+.pillCtn {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.startInput {
+    display: inline-block;
+    width: 180px;
+    height: 64px;
+    /*font-family: 'Bebas Neue', cursive;*/
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 34px;
+    position: relative;
+    top: -23px;
+    background-color: #282828;
+    color: #0DF228;
+}
+
+.startInputAlt {
+    display: inline-block;
+    width: 180px;
+    height: 64px;
+    /*font-family: 'Bebas Neue', cursive;*/
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 40px;
+    position: relative;
+    top: -24px;
+    background-color: #282828;
+    color: #0DF228;
+}
+
+
+.startInputTxt {
+    display: inline-block;
+    width: 180px;
+    height: 46px;
+    /*font-family: 'Bebas Neue', cursive;*/
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 24px;
+    position: relative;
+    top: 0px;
+    background-color: #282828;
+    color: #0DF228;
+}
+
+#clientGender {
+    font-size: 21px;
+}
+
+.selectStyle:first-child {
+    color: #6C757D;
+}
+
+.startInputArea {
+    display: inline-block;
+    /*font-family: 'Bebas Neue', cursive;*/
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 28px;
+    position: relative;
+    top: 0px;
+    background-color: #282828;
+    color: #0DF228;
+}
+
+.startInputArea:active {
+    background-color: #282828;
+    color: #0DF228;
+}
+
+.startInputArea:focus {
+    background-color: #282828;
+    color: #0DF228;
+}
+
+.startInputTxt:active {
+    background-color: #282828;
+    color: #0DF228;
+}
+
+.startInputTxt:focus {
+    background-color: #282828;
+    color: #0DF228;
+}
+
+.startInput:active {
+    background-color: #282828;
+    color: #0DF228;
+}
+
+.startInput:focus {
+    background-color: #282828;
+    color: #0DF228;
+}
+
+.centerText {
+    margin-top: 28px;
+    justify-content: center;
+}
+
+.txtSm {
+    font-size: .6em;
+    opacity: .6;
+}
+
+.badge-green {
+    background-color: #0AB61E;
+    color: #FFF;
+}
+
+.importantCtn {
+    text-decoration: underline;
+}
+
+.btn-gear {
+    background-color: #0DF228;
+    font-size: 30px;
+    display: block;
+    margin: 10px auto;
+    border: solid 2px #282828;
+}
+
+.btn-gear:hover {
+    background-color: #282828;
+    color: #0DF228;
+    font-size: 30px;
+    display: block;
+    margin: 10px auto;
+    border: solid 2px #0DF228;
+}
+
+.gearCtn {
+    max-width: 32px;
+    margin-right: 5px;
+}
+
+.configCard {
+    max-width: 650px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.configSwitch {
+    
+}
+
+.custom-control-label::before ,.custom-control-label::after{cursor: pointer}
+
+.topFinCtn {
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.activityIco {
+    max-width: 42px;
+}
+
+.noListStyle {
+    list-style: none;
+}
